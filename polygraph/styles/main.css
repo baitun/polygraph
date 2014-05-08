@@ -1,0 +1,286 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic);
+
+*{
+	outline:0;
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:'PT Sans', sans-serif;
+	font-style: 16pt;
+}
+
+body{
+	background: white;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: bold;;
+}
+
+h2{
+	display: block;
+	background: #f7de10;
+	text-transform: uppercase;
+	font-size: 21px;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 14px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.big{
+	font-size: 21px;
+}
+
+.ex-big{
+	font-size: 24px;
+}
+
+.ex-ex-big{
+	font-size:36px;
+}
+
+.block{
+	clear: both;
+	padding: 0 40px;
+}
+
+.block p{
+	margin-top: 19px;
+}
+
+.column-big{
+	width: 430px;
+}
+
+.column-small{
+	width: 280px;
+}
+
+.col{
+	margin-right: 20px;
+	float: left;
+}
+
+:last-child.col{
+	margin-right: 0;
+}
+
+.wrap, header, footer{
+	width: 960px;
+	margin: auto;
+	padding: 0 40px;
+}
+
+.header-bg{
+	height: 220px;
+	width: 100%;
+	background: #13181e;
+}
+
+.footer-bg{
+	background: #13181e;
+	height: 100px;
+	width: 100%;
+}
+
+header{
+	color: white;	
+	height: 220px;
+	background: url("../images/header-line.png") center center no-repeat;
+	position: relative;
+}
+
+header div{
+	font-size: 18px;
+}
+
+header .title{
+	position: absolute;
+	top: 63px;
+	left: 81px;
+}
+
+header .title p.bold{
+	font-size: 24px;;
+}
+
+header .adress{
+	position: absolute;
+	top: 92px;
+	right: 169px;
+	color: #f7de10;
+}
+
+.block.questions{
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.block.questions * {
+	text-align: center;	
+}
+
+.block.three-col{
+	height: 131px;
+	padding-top: 33px;;
+}
+
+.block.call-back{
+	height: 280px;
+	margin-top: 43px;
+}
+
+.block.call-back h2{
+	vertical-align: middle;
+}
+
+.block.call-back .column-form{
+	border: 1px solid #eeeeee;
+	width: 280px;
+	height: 280px;
+	box-sizing: border-box;
+	padding: 33px 0;;
+}
+
+.block.call-back .column-form *{
+	display: block;
+	width: 230px;
+	height: 38px;
+	margin: auto;
+	box-sizing: border-box;
+	margin-bottom: 19px;
+}
+
+.block.call-back input{
+	border: 1px solid #eeeeee;
+	font-size: 16px;
+	border-radius: 4px;
+	padding: 7px;
+}
+
+.block.call-back #confirm-call-back{
+	font-size: 18px;
+	background: #13181e;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+#call-back-done{
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: -12px;
+
+}
+
+.call-back-info{
+	width: 580px;
+	background: #f7de10;
+	position: relative;
+}
+
+.call-back-info p{
+	display: block;
+	position: absolute;
+	right: 20px;
+	width: 260px;
+	margin-top: 14px;
+	font-size: 18px;
+	
+}
+
+.block.scopes{
+	margin-top: 34px;
+	height: 315px;
+}
+
+.block.scopes h4{
+	margin-bottom: 0;
+	margin-top: 20px;
+
+}
+
+.block.scopes p{
+	margin-top: -1px;
+
+}
+
+.block.stat {
+	margin-top: 30px;
+	height: 368px;
+}
+
+.block.stat img{
+	margin-top: 22px;
+}
+
+.block.stat p{
+	margin-top: 5px;
+}
+
+.block.stat p.ex-ex-big{
+	margin-top: 15px;
+}
+
+.block.feedback{
+}
+
+.block.feedback h4{
+	margin-top: 10px;
+}
+
+.block.feedback p{
+	margin-top: 0;
+	font-style: italic;
+}
+
+.block.schema{
+	margin-top: 31px;
+	height: 160px;
+}
+
+.block.contacts{
+	height: 500px;
+	margin-top: 39px;
+}
+
+.block.contacts img{
+	margin-top: 17px;
+
+}
+
+.block.contacts p{
+	font-size: 18px;
+
+}
+
+footer{
+	position: relative;
+	color: white;	
+}
+
+footer div{
+	font-size: 18px;
+}
+
+footer .title{
+	position: absolute;
+	top: 38px;
+	left: 81px;
+}
+
+footer .title p.bold{
+	font-size: 24px;;
+}
+
+footer .adress{
+	position: absolute;
+	top: 54px;
+	right: 169px;
+	color: #f7de10;
+}
