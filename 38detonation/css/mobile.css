@@ -1,0 +1,274 @@
+@media only screen and (max-width: 840px) {
+    body{
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    body{
+        font-size: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 83%;
+    }
+
+    .order-button-text
+    {
+        letter-spacing: 0;
+    }
+
+
+    .line{
+        background-size: auto 10px;
+        height: 10px;
+    }
+
+    html{
+        width: 100%;
+        background: none;
+    }
+
+    .corner-wrapper{
+        position: relative;
+        padding: 8px 0;
+        margin: 10px;
+    }
+
+
+    .left-add{
+        float: none;
+    }
+
+    .right-add{
+        margin-left: 0;
+        max-width: 100%;
+        letter-spacing: -0.1px;
+        padding-left: 0;
+        border-left: none;
+        margin-top: 0;
+    }
+
+    .title40{
+        text-align: center;
+        display: block;
+
+    }
+
+    .title66{
+        display: block;
+        text-align: center;
+    }
+
+    .title-add{
+        display: block;
+        text-align: center;
+        font-size: 150%;
+        letter-spacing: 0;
+        text-transform: none;
+        color: #000;
+
+    }
+
+    .invite{
+
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+
+    .invite-where-wrapper{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .invite-where{
+        width: 50%;
+    }
+
+    .invite-where-title{
+        font-size: 18px;
+        bottom: -3%;
+    }
+
+    .ninth{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .order-button{box-shadow: 0 6px 5px rgba(0,0,0,0.3);}
+    .order-button:active{box-shadow: 0 2px 5px rgba(0,0,0,0.3);}
+
+    .order-top-phone span{
+        letter-spacing: 0;
+    }
+
+
+
+    .alko{
+        height: 14%;
+    }
+
+
+    .control-fire-text3{
+        letter-spacing: 0;
+        width: 80%;
+    }
+
+    .madness .title-invite{
+        letter-spacing: -2px;
+    }
+
+    .azot-text-1{
+        font-size: 250%;
+    }
+
+    .azot-text-2{
+        font-size: 170%;
+        letter-spacing: -0.3px;
+
+        margin-top: 0;
+    }
+
+    .backet{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    body{
+        font-size: 77%;
+    }
+}
+@media only screen and (max-width: 700px) {
+
+    body{
+        font-size: 75%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+
+    body{
+        font-size: 69%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    body{
+        font-size: 68%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    body{
+        font-size: 63%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    body{
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    body{
+        font-size: 50%;
+    }
+    
+    .video{
+      margin:50px auto 0 auto;
+      max-width:510px;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+
+    body{
+        font-size: 45%;
+    }
+
+    .alko-text-1{
+        font-size: 190%;
+    }
+    .alko-text-2{
+        font-size: 160%;
+    }
+
+    .alko .alko-text-3, .azot-text-3.span{
+        font-size: 8px;
+        width: 90%;
+    }
+
+    .alko{
+        height: 14%;
+    }
+
+    .modal-container{
+        top:13%;
+        left: 10%;
+        width: 80%;
+    }
+
+    .modal-close{
+        top: 5%;
+        left: 90%;
+        width: 5%;
+
+    }
+
+    .eleventh span, .eleventh a, .eleventh span a{
+        font-size: 22px;
+    }
+    
+    .video{
+      margin:50px auto 0 auto;
+      max-width:479px;
+    }
+  
+  .first-a .big-text{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    .alko .alko-text-3, .azot-text-3.span{
+        font-size: 7px;
+        width: 90%;
+    }
+    
+    .video{
+      margin:50px auto 0 auto;
+      max-width:400px;
+    }
+  
+  .first-a .big-text{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 320px) {
+    body{
+        font-size: 37%;
+    }
+    
+    .video{
+      margin:50px auto 0 auto;
+      max-width:320px;
+    }
+}
