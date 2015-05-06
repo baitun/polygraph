@@ -1,0 +1,205 @@
+@media screen and (min-width: 1024px){
+
+.block{
+	margin: 0 auto;
+	background-position: center top;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.std{
+	width: 1000px;
+	z-index: 1;
+}
+
+.wide{
+	width: 1060px;
+	z-index: 2;
+}
+
+/**/
+
+.header{
+	background: url(../images/header.gif) no-repeat -467px -12px;
+	height: 142px;
+}
+
+.header img{
+	display: none;
+}
+
+.about{
+	height: 578px;
+	background: url(../images/bg1.png) no-repeat;
+}
+
+.about div:first-child{
+	position: absolute;
+	top: 24px;
+	right: 30px;	
+}
+
+.about div:nth-child(2){
+	position: absolute;
+	top: 187px;
+	right: 38px;
+}
+
+.about .btn-order{
+	position: absolute;
+	bottom: 25px;
+	right: 34px;
+}
+
+.action{
+	background: url(../images/action.png);
+	height: 109px;
+	margin-top: -29px;
+}
+
+.action p{
+	position: absolute;
+	top: -999px;
+	left: -999px;
+}
+
+.youllsee{
+	background-image: url(../images/bg2.png);
+	height: 362px;
+}
+
+.youllsee h2{
+	padding-top: 35px;
+}
+
+.duration{
+	background-image: url(../images/tape1.png);
+	height: 108px;
+	margin-top: -54px;	
+}
+
+.duration h3{
+	padding-top: 31px;
+}
+
+.where{
+	background-image: url(../images/bg3.png);
+	height: 345px;
+	margin-top: -3px;
+}
+
+.where h2{
+	padding-top: 42px;
+}
+
+.where>div{
+	position: absolute;
+	bottom: 37px;
+	width: 100%;
+	padding-left: 70px;
+	padding-right: 21px;
+
+}
+
+.where>div>div{
+	display: table-cell;
+	width: 1%;	
+}
+
+.require{
+	background-image: url(../images/tape2.png);
+	height: 268px;
+	margin-top: -26px;
+}
+
+.require h3{
+	padding-top: 35px;
+}
+
+.require ul{
+	margin-left: 123px;
+}
+
+.gallery{
+	margin-top: -9px;
+	background: #002e74;
+	padding-bottom: 51px;;
+}
+
+.gallery:before{
+	content:"";
+	display: block;
+	position: absolute;
+	top: 0;
+	background: url(../images/bg4-1.png);
+	height: 140px;
+	width: 100%;
+	z-index: 0;
+}
+
+.gallery:after{
+	content:"";
+	display: block;
+	position: absolute;
+	bottom:0;
+	background: url(../images/bg4-2.png);
+	height: 109px;
+	width: 100%;
+	z-index: 0;
+}
+
+.gallery h2{
+	padding-top: 42px;
+	z-index: 1;
+	position: relative;;
+}
+
+.gallery .video iframe{
+	width: 750px;
+	height: 420px;
+}
+
+.new-service{
+	background: #002e74;
+	height: 280px;
+	margin-top: -3px;
+}
+
+.new-service h2{
+  padding-top:42px;
+}
+
+.new-service div{
+  font-size:18px;
+  padding:20px 40px;
+}
+
+.new-service div p{
+  margin:6px 0;
+}
+
+.order{
+	background-image: url(../images/tape3.png);
+	height: 256px;
+	margin-top: -41px;	
+}
+
+.order h3{
+	padding-top: 35px;
+}
+
+.order .horizontal-form{
+	margin: auto;
+	width: 734px;
+	margin-top: 23px;	
+}
+
+.order input[type="text"]{
+	width: 350px;
+}
+
+.order input[type="text"]:first-child{
+	margin-right: 24px;
+}
+
+}

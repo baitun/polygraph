@@ -1,0 +1,199 @@
+.gallery-wrap{
+	width: 750px;
+	margin: auto;
+	position: relative;
+	border: 5px solid #001638;
+	box-sizing: content-box;
+	margin-top: 32px;
+}
+
+#gallery-container{
+	width: 750px;
+	overflow: hidden;
+	height: 300px;
+	margin: auto;
+	margin-left: -1px;
+	padding-top: 4px;
+}
+
+#gallery-container a{	
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+	margin-top: -4px;
+	margin-right: -4px;	
+	/*cursor: url(../images/zummer.png);*/
+}
+
+#gallery-container a::after{
+	display: none;
+}
+
+#gallery-container a:hover::after{
+	content: "";
+	display: block;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	background: url(../images/zummer.png) no-repeat center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#gallery-container img{
+	width: 150px;
+	height: 150px;
+}
+
+#prev, #next{
+	position: absolute !important;
+	width: 68px;
+	height: 89px;
+	top: 150px;
+	cursor: pointer;
+	z-index: 2;
+	margin-top: -43px;
+	background-position: top;
+	background-image: url(../images/arrows.png);
+	background-repeat: no-repeat;
+
+}
+#prev{	
+	left: -62px;
+	background-position: bottom left;
+}
+#next{
+	right: -62px;
+	background-position: bottom right;
+}
+
+#prev:hover{
+	background-position: top left;
+}
+#next:hover{
+	background-position: top right;
+}
+
+#page-nav{
+	margin: auto;
+	width: 100px;
+	text-align: center;
+	margin-top: -6px;
+	cursor: default;
+}
+
+#page-nav span{
+	display: inline-block;
+	font-size: 32px;
+	cursor: pointer;
+	color: #001638;
+}
+
+#page-nav span+span{
+	padding-left: 3px;
+}
+
+#page-nav span:hover{
+	color: white;
+	text-shadow: 0 0 0.5em white;
+}
+
+#page-nav span.active{
+	color: white;
+}
+
+.recommendations{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.recommendations>a{
+
+}
+
+.recommendations>a>img{
+	vertical-align: top;
+	width: 150px;
+}
+
+.gallery .video{	
+	box-sizing: content-box;
+	margin-top: -2px;
+	padding: 0;
+	max-width: 750px;
+	z-index: 1;
+}
+
+.gallery .video iframe{
+	border: 5px solid #001638;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px){
+	.block{
+		max-width: 750px;
+	}
+	.gallery-wrap, #gallery-container{
+		width: 600px;
+	}
+	#page-nav{
+		display: none;
+	}
+	.gallery-wrap{
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.block{
+		max-width: 600px;
+	}
+	.gallery-wrap, #gallery-container{
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.block{
+		max-width: 450px;
+	}
+	.gallery-wrap, #gallery-container{
+		width: 300px;
+	}
+
+	.about .btn-order{
+		-webkit-background-size: cover;
+		background-size: cover;
+		width: 222px;
+		height: 43px;
+	}	
+	.about div:first-child p:nth-child(2){
+		font-size: 32px;
+	}
+	.about div:first-child p:nth-child(3){
+		font-size: 35px;
+	}
+	.about div:nth-child(2){
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.block{
+		max-width: 98%;
+	}
+	.gallery-wrap, #gallery-container{
+		width: 150px;
+	}
+
+	.order button{
+		width: 175px;
+		height: 67px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		
+	}
+}

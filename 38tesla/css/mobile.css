@@ -1,0 +1,89 @@
+@media screen and (min-width: 1024px) and (max-width: 1090px){
+	.block.wide{
+		width: 1000px;
+		background-position: center;
+	}
+}
+
+@media screen and (max-width: 1023px){
+
+.block{
+	max-width: 900px;
+}
+
+.block{
+	margin: auto;
+	padding: 10px;
+}
+
+.header{
+	margin: auto;
+	padding: 0;	
+	margin-bottom: -3px;
+}
+
+.header img{
+	width: 100%;	
+}
+
+.about{
+	background: #00164f;
+}
+
+.about .btn-order{
+	margin: auto;
+}
+
+.order-contacts{
+  position:static
+}
+
+.action{
+	background: #450503;	
+	text-align: center;
+	font-family: 'EkibastuzBold';
+	font-size: 28px;
+}
+
+.youllsee, .new-service{
+	background: #002e74;
+}
+
+.duration{
+	background: #f57401;
+}
+
+.where{
+	background: #00286a;
+}
+
+.require{
+	background: #bc0000;
+}
+
+.require ul li{
+	margin-left: 20px;
+}
+
+.gallery{
+	background: #002e74;
+}
+
+.gallery .video-player{
+	width: 100%;
+	max-width: 750px;
+}
+
+.order{
+	background: #973e00;
+}
+
+.order input[type="text"]{
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin-bottom: 10px;
+	max-width: 350px;
+}
+
+}

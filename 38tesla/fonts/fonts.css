@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'EkibastuzBlack';
+    src: url('ekibastuz_black.eot');
+    src: url('ekibastuz_black.eot') format('embedded-opentype'),
+         url('ekibastuz_black.woff2') format('woff2'),
+         url('ekibastuz_black.woff') format('woff'),
+         url('ekibastuz_black.ttf') format('truetype'),
+         url('ekibastuz_black.svg#EkibastuzBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'EkibastuzBold';
+    src: url('ekibastuz_bold.eot');
+    src: url('ekibastuz_bold.eot') format('embedded-opentype'),
+         url('ekibastuz_bold.woff2') format('woff2'),
+         url('ekibastuz_bold.woff') format('woff'),
+         url('ekibastuz_bold.ttf') format('truetype'),
+         url('ekibastuz_bold.svg#EkibastuzBold') format('svg');
+}
+
+@font-face {
+    font-family: 'EkibastuzRegular';
+    src: url('ekibastuz_regular.eot');
+    src: url('ekibastuz_regular.eot') format('embedded-opentype'),
+         url('ekibastuz_regular.woff2') format('woff2'),
+         url('ekibastuz_regular.woff') format('woff'),
+         url('ekibastuz_regular.ttf') format('truetype'),
+         url('ekibastuz_regular.svg#EkibastuzRegular') format('svg');
+}
